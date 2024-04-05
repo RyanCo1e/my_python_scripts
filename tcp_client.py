@@ -28,7 +28,7 @@ ip = srv_ip()
 while True:
         port_num = int(input(colored("Enter the port number of the server you want to connect: ", "blue")))
 
-        if 0 < port_num <=65535:
+        if 0 < port_num <= 65535:
                 port = port_num
                 break
         elif port_num > 65535 or port_num == 0:
