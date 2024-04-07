@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-#Developed by nlh
+#Author: nlh
+
 import socket
 from termcolor import colored
 import re
